@@ -24,7 +24,6 @@
 .navbar {
     display: flex;
     justify-content: space-between;
-    /* background-color: rgba(9, 9, 135, 0.6);  */
 
 }
 
@@ -78,16 +77,21 @@ nav ul li a:hover {
     margin-top: 1rem;
 }
 
-.bar {
+.home .bar {
     width: 30px;
-    background-color: #faf7f7;
+    background-color: #f7f7f8;
     height: 0.3rem;
     margin: 0.23rem 1rem;
    
 }
 
-
-
+.blueNav .bar{
+    width: 30px;
+    background-color: #181969;
+    height: 0.3rem;
+    margin: 0.23rem 1rem;
+    
+}
 .container {
     /* color: #087ecd; and clamp */
     color: #f8fafb;
@@ -156,8 +160,9 @@ nav ul li a:hover {
 .section.One h3{
 padding-bottom: 1rem;
 }
-.section.One svg{
-    padding-right: 1rem;
+
+.section.three h3{
+    padding-bottom: 1rem;
 }
 .section.four p {
     padding-top: 1rem;
@@ -186,6 +191,7 @@ padding-bottom: 1rem;
 /* SHOP */
 .blueNav a ,.logo h5{
     color: #352ba0;
+
 }
  h2{
     margin-left: 27rem;
@@ -481,10 +487,12 @@ margin-bottom: 3.5rem;
         width: 50vw;
         padding: 10px 0px;
         margin-top: 0rem;
-        height: 100vh;  
+        height: 100vh;
+         
     }
     .nav-links li a{
         margin-left: 1rem;
+        color: #f8f5f5; 
     }
     .nav-links.active {
         display: flex;
@@ -494,11 +502,11 @@ margin-bottom: 3.5rem;
         margin: 15px 0;
     }
     .container {
-        padding-top: 3rem;
-        padding-left: 1rem ;
+        padding-top: 2rem;
+        padding-left: 0.5rem ;
         margin: 0; 
         text-align: start; 
-        color: #fff;
+        color: #f8f5f5;
     }
 
     .container h1  {
@@ -506,8 +514,18 @@ margin-bottom: 3.5rem;
         font-size: 2rem;
     }
     .container p{
-        margin-top: 0.6rem;
+        margin-top: 0.3rem;
         font-size: 1rem;
+    }
+    .FOOTER{
+        display: block;
+        text-align: center;
+        padding-left: 3rem;
+    }
+    .FOOTER .logo{
+        margin-left: 3rem;
+        padding-bottom: 0rem;
+
     }
 
  }
