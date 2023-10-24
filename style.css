@@ -86,33 +86,6 @@ nav ul li a:hover {
    
 }
 
-@media (max-width: 760px) {
-    .burger-menu {
-        display: flex;
-    }
-
-    .nav-links {
-        display: none;
-        flex-direction: column;
-        background-color: rgb(30, 14, 97);
-        position: absolute;
-        padding: 10px 0;
-        width: 50vw;
-        padding: 10px 0px;
-        margin-top: 0rem;
-        height: 100vh;  
-    }
-    .nav-links li a{
-        margin-left: 1rem;
-    }
-    .nav-links.active {
-        display: flex;
-    }
-
-    .nav-links li {
-        margin: 15px 0;
-    }
-}
 
 
 .container {
@@ -493,5 +466,50 @@ margin-bottom: 3.5rem;
     background-color: #9fa4a8;
 
 }
+@media (max-width: 760px) {
+    .burger-menu {
+        display: flex;
+    }
 
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        background-color: rgb(30, 14, 97);
+        position: absolute;
+        padding: 10px 0;
+        width: 50vw;
+        padding: 10px 0px;
+        margin-top: 0rem;
+        height: 100vh;  
+    }
+    .nav-links li a{
+        margin-left: 1rem;
+    }
+    .nav-links.active {
+        display: flex;
+    }
+
+    .nav-links li {
+        margin: 15px 0;
+    }
+    .container {
+        padding-top: 5.5rem;
+        padding-left: 1rem ;
+        margin: 0; 
+        text-align: start; 
+        color: #fff;
+    }
+
+    .container h1  {
+        margin-top: 4rem;
+        font-size: 2rem;
+        font-weight: bold;
+         /* Reduce font size for smaller screens */
+    }
+    .container p{
+        margin-top: 0.6rem;
+        font-size: 1rem;
+    }
+
+ }
 
