@@ -306,6 +306,7 @@ margin-bottom: 3.5rem;
     overflow: hidden;
   
   }
+
   .background{
     margin: 8rem;
     padding: 2rem;
@@ -318,15 +319,11 @@ margin-bottom: 3.5rem;
     margin-top: 3rem;
     
   }
-  .background input , textarea{
-    /* margin-right: 34rem;  */
-    padding-right: 18rem;
-    padding-bottom:1.5rem;
-     margin-bottom: 0.5rem;
-     background-color: rgba(253, 253, 253, 0.2);
-     border: none;
-  }
-  .background  .input button{
+  .background .form-group {
+   display: grid;
+}
+
+.background .input button {
     margin-left: 20rem;
     background-color: rgb(48, 22, 156);
     color: #f8fafb;
@@ -334,10 +331,23 @@ margin-bottom: 3.5rem;
     padding-block: 0.5rem;
     margin-bottom: 4rem;
     border: none;
-   font-weight: bold;
-   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
 
+.error {
+    color: red;
+    font-size: 14px;
+}
+   .background input , textarea{
+   
+    padding-right: 18rem;
+    padding-bottom:1.5rem;
+     margin-bottom: 0.5rem;
+     background-color: rgba(253, 253, 253, 0.2);
+     border: none;
   }
+  
   .background  .input button:hover{
     background: none;
     border-color: #f8fafb;
@@ -376,12 +386,12 @@ margin-bottom: 3.5rem;
     color: #352ba0;
 }
 .faq-container{
-    max-width: 600px;
-    margin: 0px auto;
+    max-width: 50rem;
+    margin: 0rem auto;
 }
 
 .faq{
-    border: 2px solid #9fa4a8;
+     border: 0.2rem solid #9fa4a8; 
     margin:10px 0px;
     border-radius: 15px;
     padding: 18px;
@@ -403,20 +413,11 @@ margin-bottom: 3.5rem;
     position: absolute;
     top:20px;
     left:20px;
-    /* z-index: 0; */
-}
-
-.faq.active::before{
-    color:#3498db;
-    top:-10px;
-    left:-30px;
-    /* transform: rotateY(180deg); */
 }
 
 .faq-text{
     display: none;
-    /* margin:0px 35px 0px 0px;  */
-    margin: 30px 0px 0px;
+    margin: 2rem 0rem 0rem;
 }
 
 .faq.active .faq-text{
@@ -429,15 +430,14 @@ margin-bottom: 3.5rem;
     border-radius: 50%;
     cursor: pointer;
     display: flex;
-    /* flex-direction: column; */
     align-items: center;
     justify-content: center;
     position: absolute;
-    top:20px;
-    right: 20px;
-    font-size: 12px;
-    height: 20px;
-    width: 20px;
+    top:1rem;
+    right: 1rem;
+    font-size: 1rem;
+    height: 1.8rem;
+    width: 1rem;
 }
 
 .faq-toggle:focus{
@@ -565,7 +565,7 @@ input[type="text"]::placeholder ,textarea::placeholder, input[type="tel"]::place
       .faq{
         border: 2px solid #9fa4a8;
         margin:1rem 0rem;
-        margin-inline: 2rem;
+        margin-inline: 1rem;
     }
     
 
