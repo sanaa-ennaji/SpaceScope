@@ -535,17 +535,18 @@ margin-bottom: 3.5rem;
     }
     .background{
         margin: 0rem;
-        padding-right: 0.1rem;
+       
         background: none;
         margin-top: 2rem;
        
         
       }
       .background input , textarea{
-        padding-right: 12rem;  
+        padding-right: 10rem; 
+        
       }
       .background  form button{
-        margin-left: 14rem;
+        margin-left: 12rem;
     
       }
       
