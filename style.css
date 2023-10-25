@@ -396,15 +396,14 @@ margin-bottom: 3.5rem;
 }
 
 .faq.active::before,.faq.active::after{
-    content: '\f075';
+    
     font-family: 'Font Awesome 5 Free';
     font-size: 7rem;
     position: absolute;
-    opacity: 0.2;
-    color:#2ecc71;
+  
     top:20px;
     left:20px;
-    z-index: 0;
+    /* z-index: 0; */
 }
 
 .faq.active::before{
@@ -477,6 +476,7 @@ margin-bottom: 3.5rem;
         padding: 10px 0px;
         margin-top: 0rem;
         height: 100vh;
+        z-index: 1;
          
     }
     .nav-links li a{
