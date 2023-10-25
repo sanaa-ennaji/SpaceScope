@@ -358,7 +358,7 @@ margin-bottom: 3.5rem;
         
     }
   iframe{
-    margin-right: 4rem;
+    margin-right: 6rem;
     margin-top:7rem ;
 
   }
@@ -401,7 +401,6 @@ margin-bottom: 3.5rem;
     font-family: 'Font Awesome 5 Free';
     font-size: 7rem;
     position: absolute;
-  
     top:20px;
     left:20px;
     /* z-index: 0; */
@@ -411,7 +410,7 @@ margin-bottom: 3.5rem;
     color:#3498db;
     top:-10px;
     left:-30px;
-    transform: rotateY(180deg);
+    /* transform: rotateY(180deg); */
 }
 
 .faq-text{
@@ -462,6 +461,11 @@ margin-bottom: 3.5rem;
 
 }
 
+input[type="text"]::placeholder ,textarea::placeholder, input[type="tel"]::placeholder ,input[type="email"]::placeholder{
+    color: #fcf7f7; 
+    font-style: bold; 
+    padding: 0.3rem;
+}
 @media (max-width: 760px) {
     .burger-menu {
         display: flex;
@@ -522,8 +526,9 @@ margin-bottom: 3.5rem;
         margin-top: 0.5rem;
     }
     .blueNav h2 ,.blueNav hr{
-        margin-left: 5rem;
+        margin-left: 3rem;
     }
+   
     .experiences {  
         display: grid;
         grid-template-columns: repeat(1, 1fr);
@@ -557,6 +562,12 @@ margin-bottom: 3.5rem;
       iframe{
         margin-top:0rem ;
       }
+      .faq{
+        border: 2px solid #9fa4a8;
+        margin:1rem 0rem;
+        margin-inline: 2rem;
+    }
+    
 
  }
 
