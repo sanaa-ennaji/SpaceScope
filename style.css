@@ -62,13 +62,6 @@ nav ul li a {
     color: rgb(233, 233, 242);
     font-size: 1.25rem;
 }
-
-nav ul li a:hover {
-    color: #1f4398;
-    font-weight: bold;
-    transition: 0.5s;
-   
-}
 .burger-menu {
     display: none;
     flex-direction: column;
@@ -77,14 +70,13 @@ nav ul li a:hover {
     margin-top: 1rem;
 }
 
-.home .bar {
+.home .bar , .contact .bar {
     width: 30px;
     background-color: #f7f7f8;
     height: 0.3rem;
     margin: 0.23rem 1rem;
    
 }
-
 .blueNav .bar{
     width: 30px;
     background-color: #181969;
@@ -132,7 +124,7 @@ nav ul li a:hover {
     border: none;
     border-radius: 0.3rem;
 }
-/* FOOTER */
+/* FOOTER ----------------------------------------*/
 .FOOTER {
     background-color: rgb(21, 21, 99);
     display: flex;
@@ -188,12 +180,12 @@ padding-bottom: 1rem;
     font-family: 'Sansita', sans-serif;
     border: none;
 }
-/* SHOP */
+/* SHOP --------------------------------------- */
 .blueNav a ,.logo h5{
     color: #352ba0;
 
 }
- h2{
+h2{
     margin-left: 27rem;
     margin-top: 3rem;
     margin-bottom: 0.5rem;
@@ -254,7 +246,7 @@ box-shadow: rgba(17, 17, 26, 0.1) 0rem 0.4rem 1rem, rgba(17, 17, 26, 0.1) 0rem 0
     font-size: large; 
     padding-right: 8rem;
 }
-/* experiences */
+/* experiences ------------------------------------*/
 .blueNav h2{
     margin-left: 38rem;
     margin-top: 2rem;
@@ -263,7 +255,7 @@ box-shadow: rgba(17, 17, 26, 0.1) 0rem 0.4rem 1rem, rgba(17, 17, 26, 0.1) 0rem 0
    
 }
 .blueNav hr{
-width: 10.5rem;
+width: 13rem;
 margin-left: 38rem;
 height: 0.45rem;
 background-color: #352ba0;
@@ -303,11 +295,7 @@ margin-bottom: 3.5rem;
     color: #352ba0;
     text-align: center;
   }
-  .categories h3{
-    margin-top: 3rem;
-    font-weight: bolder;
-    font-size: x-large;
-  }
+ 
   /* contact */
   .contact{
     font-family: sans-serif;
@@ -378,8 +366,9 @@ margin-bottom: 3.5rem;
     font-family: 'Hind', sans-serif;
     color: #4d5974;
     margin-top: 5rem;
+    display: block;
 }
-/* faq */
+/* faq -----------------------------*/
 
 .eyit h1{
     margin: 50px 0px 30px;
@@ -481,7 +470,7 @@ margin-bottom: 3.5rem;
     .nav-links {
         display: none;
         flex-direction: column;
-        background-color: rgb(30, 14, 97);
+        background-color: rgb(21, 21, 99);
         position: absolute;
         padding: 10px 0;
         width: 50vw;
@@ -523,10 +512,51 @@ margin-bottom: 3.5rem;
         padding-left: 3rem;
     }
     .FOOTER .logo{
-        margin-left: 3rem;
+        margin-left: 2rem;
         padding-bottom: 0rem;
 
     }
+    .FOOTER button {
+        margin-bottom: 1rem;
+    }
+    .blueNav h2 ,.blueNav hr{
+        margin-left: 8rem;
+       
+    }
+    .experiences {  
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    h2 , hr{
+        margin-left: 3rem;
+    }
+    .shop .categories {
+        display: none;
+    }
+    .background{
+        margin: 0rem;
+        padding-right: 0.1rem;
+        background: none;
+        margin-top: 2rem;
+       
+        
+      }
+      .background input , textarea{
+        padding-right: 12rem;  
+      }
+      .background  form button{
+        margin-left: 14rem;
+    
+      }
+      
+      .background p {
+        color: #616568;
+        margin-top:1rem ;
+      }
+        
+      iframe{
+        margin-top:0rem ;
+      }
 
  }
 
