@@ -518,10 +518,10 @@ margin-bottom: 3.5rem;
     }
     .FOOTER button {
         margin-bottom: 1rem;
+        margin-top: 0.5rem;
     }
     .blueNav h2 ,.blueNav hr{
-        margin-left: 8rem;
-       
+        margin-left: 5rem;
     }
     .experiences {  
         display: grid;
